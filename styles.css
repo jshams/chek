@@ -70,6 +70,12 @@ body {
     width: 10%;
 }
 
+.left-btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border: gray;
+}
+
 .images {
     height: 400px;
     width: 90%;
@@ -88,6 +94,12 @@ body {
     width: 10%;
     position: relative;
     top: 50%;
+}
+
+.right-btn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border: gray;
 }
 
 .description {
