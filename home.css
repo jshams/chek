@@ -30,3 +30,7 @@ p {
     margin-left: 10%;
     font-size: 1.6em;
 }
+
+.bottom {
+    height: 600px;
+}
