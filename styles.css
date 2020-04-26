@@ -32,6 +32,7 @@ body {
 }
 
 #items {
+    margin-top: 100px;
     width:80%;
     margin-left: 10%;
     display: flex;
@@ -47,6 +48,13 @@ body {
     padding: 20px;
     background-color: #D5D5D5;
     /* border-bottom: solid gray; */
+}
+
+.item:before {
+    content:"";
+    display:block;
+    height:90px; /* fixed header height*/
+    margin:-90px 0 0; /* negative fixed header height */
 }
 
 .item-title {

@@ -141,7 +141,14 @@ const createItems = () => {
     }
 }
 
+const addIdsToItems = () => {
+    for (let i = 0; i < itemsArr.length; i++) {
+        itemsArr[i].itemContainer.id = "item" + i.toString()
+    }
+}
+
 createItems()
+addIdsToItems()
 
 if (isMobile) {
     const imgElems = document.getElementsByClassName("images")
