@@ -163,9 +163,9 @@ if (isMobile) {
     }
 
     // make the back button smaller
-    const backBtn = document.getElementById("back")
-    backBtn.style.width = "70px"
-    // backBtn.style.width = "0px;"
-    backBtn.style.padding = "6px"
-    backBtn.style.height = "20px"
+    // const backBtn = document.getElementById("back")
+    // backBtn.style.width = "70px"
+    // // backBtn.style.width = "0px;"
+    // backBtn.style.padding = "6px"
+    // backBtn.style.height = "20px"
 }
