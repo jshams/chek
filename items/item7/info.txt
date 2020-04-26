@@ -1,0 +1,5 @@
+Name: Protective gloves
+Pieces per box: 100 gloves per box
+Boxes per carton: 10
+Gloves per carton: 1000
+

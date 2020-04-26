@@ -1,0 +1,5 @@
+Name: KN95 Face Mask
+Pieces per box: 10
+Boxes per carton: 200
+Masks per carton: 2000
+

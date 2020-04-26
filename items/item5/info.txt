@@ -1,0 +1,5 @@
+Name: Thermometer
+Pieces per Box: Each thermometer in own individual box
+Boxes per carton: 60
+Thermometers per carton: 60
+

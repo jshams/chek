@@ -1,0 +1,10 @@
+{
+    "item-name": "goggles",
+    "description": "these are goggles",
+    "images": [
+        "hi",
+        "my",
+        "name"
+    ],
+    "price": 70
+}

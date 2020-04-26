@@ -1,0 +1,15 @@
+{
+  "imgs": [
+    "items/item1/img1.jpeg",
+    "items/item1/img2.jpg",
+    "items/item1/img3.jpg",
+    "items/item1/img4.png",
+    "items/item1/img5.jpg"
+  ],
+  "Name": " Disposable 3 Ply Surgical Mask",
+  "descriptions": [
+    "Pieces per box: 50",
+    "Boxes per carton: 40",
+    "Masks per carton: 2000"
+  ]
+}

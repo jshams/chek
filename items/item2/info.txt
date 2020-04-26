@@ -1,0 +1,4 @@
+Name: Face Shields
+Pieces per box: Each face shield in own individual poly bag
+Bags per carton: 200
+Face shields per carton: 200

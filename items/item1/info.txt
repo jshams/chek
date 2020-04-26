@@ -1,0 +1,4 @@
+Name: Disposable 3 Ply Surgical Mask
+Pieces per box: 50
+Boxes per carton: 40
+Masks per carton: 2000

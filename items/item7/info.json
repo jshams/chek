@@ -1,0 +1,15 @@
+{
+  "imgs": [
+    "items/item7/img1.jpg",
+    "items/item7/img2.jpg",
+    "items/item7/img3.jpeg",
+    "items/item7/img4.jpg"
+  ],
+  "Name": " Protective gloves",
+  "descriptions": [
+    "Pieces per box: 100 gloves per box",
+    "Boxes per carton: 10",
+    "Gloves per carton: 1000",
+    ""
+  ]
+}
