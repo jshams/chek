@@ -122,7 +122,7 @@ class Item {
     addBuyBtn() {
         const buyBtn = document.createElement("A")
         buyBtn.innerHTML = "contact"
-        buyBtn.href = "mailto:email@email.com"
+        buyBtn.href = "contact.html"
         buyBtn.classList.add("buy-btn")
         this.itemContainer.appendChild(buyBtn)
     }
