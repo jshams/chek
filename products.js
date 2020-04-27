@@ -159,6 +159,6 @@ if (isMobile) {
     for (let i = 0; i < itemElems.length; i++) {
         itemElems[i].style.width = "80%"
         itemElems[i].style.padding = "5%"
-        itemElems[i].style.marginLeft = "5%"
+        itemElems[i].style.marginLeft = "10%"
     }
 }
