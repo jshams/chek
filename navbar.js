@@ -1,5 +1,5 @@
 const navbar = document.createElement("DIV")
-navbar.classList.add("navbar")
+navbar.classList.add("navbars")
 
 addNavItem = (itemName, href) => {
     const navItem = document.createElement("A")
@@ -10,7 +10,7 @@ addNavItem = (itemName, href) => {
 }
 
 const items = ["Home", "Contact", "Shipping info"]
-const hrefs = ["index.html", "index.html#contact", "index.html#shipping"]
+const hrefs = ["index.html", "contact.html", "index.html#shipping"]
 
 for (let i = 0; i < items.length; i++) {
     addNavItem(items[i], hrefs[i])

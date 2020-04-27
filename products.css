@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     /* Helvetica, sans-serif; */
-    background-color: silver;
+    background-color: rgb(224, 224, 224);
 }
 
 .back {
@@ -47,7 +47,7 @@ body {
     width: 40%;
     padding: 20px;
     background-color: #D5D5D5;
-    /* border-bottom: solid gray; */
+    border-bottom: solid gray;
 }
 
 .item:before {
