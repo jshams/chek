@@ -8,8 +8,28 @@ if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elain
 if (isMobile) {
     console.log("mobile")
     document.body.style.fontSize = "10px"
-    document.querySelectorAll('p').forEach(function (paragraph) {
-        paragraph.style.width = "90%"
-        paragraph.style.marginLeft = "5%"
-    });
+}
+
+const submitForm = () => {
+    console.log("submitform")
+    const formsFields = document.getElementsByClassName("form-control")
+    for (let i = 0; i < formsFields.length; i++) {
+        if (!formsFields[i].value) {
+            alert("Please fill out all form fields before submiting.")
+            return
+        }
+    }
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (!formsFields[0].value.match(mailformat)) {
+        alert("Please enter a valid email.")
+        return
+    }
+    const recaptchaPassed = grecaptcha.getResponse()
+    if (recaptchaPassed) {
+        document.getElementById("contact-form").submit()
+    }
+    else {
+        alert("Fill out recaptca before submitting.")
+        return
+    }
 }

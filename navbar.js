@@ -12,6 +12,10 @@ addNavItem = (itemName, href) => {
 const items = ["Home", "Contact", "Shipping info"]
 const hrefs = ["index.html", "contact.html", "index.html#shipping"]
 
+if (isMobile) {
+    items[2] = "Shipping"
+}
+
 for (let i = 0; i < items.length; i++) {
     addNavItem(items[i], hrefs[i])
 }
@@ -69,3 +73,13 @@ function closeDropdown() {
 closeDropdown()
 createDropdown()
 dropdown.appendChild(dropdownItems)
+
+if (isMobile) {
+    const navItems = document.getElementsByClassName("nav-item")
+    for (let i = 0; i < navItems.length; i++) {
+        navItems[i].style.height = "34px"
+        navItems[i].style.fontSize = "12px"
+        navItems[i].style.paddingTop = "8px"
+
+    }
+}

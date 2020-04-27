@@ -43,34 +43,11 @@
                 placeholder="Message us with items you are interested in and quantity size and we will get back to you immediately."></textarea>
         </div>
         <div class="g-recaptcha" data-sitekey="6Le01O4UAAAAAL4VbG0sVKKBMhc8VF2mHfW38gr3"></div>
-        <script>
-            const submitForm = () => {
-                console.log("submitform")
-                const formsFields = document.getElementsByClassName("form-control")
-                for (let i = 0; i < formsFields.length; i++) {
-                    if (!formsFields[i].value) {
-                        alert("Please fill out all form fields before submiting.")
-                        return
-                    }
-                }
-                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                if (!formsFields[0].value.match(mailformat)) {
-                    alert("Please enter a valid email.")
-                    return
-                }
-                const recaptchaPassed = grecaptcha.getResponse()
-                if (recaptchaPassed) {
-                    document.getElementById("contact-form").submit()
-                }
-                else {
-                    alert("Fill out recaptca before submitting.")
-                    return
-                }
-            }
-        </script>
         <button style="margin-top: 10px;" type="button" onclick="submitForm()" class="btn btn-primary">Submit</button>
         <!-- <button type="button"></button> -->
     </form>
+
+    <script src="contact.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
