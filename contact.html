@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="navbar.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            grecaptcha.render('html_element', {
+                'sitekey': '6Le01O4UAAAAAL4VbG0sVKKBMhc8VF2mHfW38gr3'
+            });
+        };
+    </script>
 </head>
 
 <body>
@@ -35,7 +42,7 @@
             <textarea class="form-control" id="message" rows="3" name="Message"
                 placeholder="Message us with items you are interested in and quantity size and we will get back to you immediately."></textarea>
         </div>
-        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+        <div class="g-recaptcha" data-sitekey="6Le01O4UAAAAAL4VbG0sVKKBMhc8VF2mHfW38gr3"></div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
