@@ -29,7 +29,7 @@ const submitForm = () => {
         document.getElementById("contact-form").submit()
     }
     else {
-        alert("Fill out recaptca before submitting.")
+        alert("Please fill out reCAPTCHA before submitting.")
         return
     }
 }
