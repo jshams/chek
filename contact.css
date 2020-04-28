@@ -1,11 +1,12 @@
-html {
+/* html {
     height: 100%;
-}
+} */
 
 body {
     /* background-color: rgb(224, 224, 224); */
     background: linear-gradient(132deg, rgba(0,105,195,1) 05%,rgba(50,50,50,1) 95% );
     color: white;
+    padding-bottom: 100px;
 }
 
 .header {
@@ -18,4 +19,8 @@ body {
 .form {
     width: 80%;
     margin-left: 10%;
+}
+
+label {
+    font-size: 1.6em;
 }
