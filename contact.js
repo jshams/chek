@@ -20,7 +20,7 @@ const submitForm = () => {
         }
     }
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (!formsFields[0].value.match(mailformat)) {
+    if (!formsFields[1].value.match(mailformat)) {
         alert("Please enter a valid email.")
         return
     }
