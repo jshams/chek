@@ -1,25 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     /* Helvetica, sans-serif; */
-    background-color: rgb(224, 224, 224);
+    /* background-color: rgb(224, 224, 224); */
+    background: linear-gradient(132deg, rgba(0,105,195,1) 05%,rgba(50,50,50,1) 95% );
 }
 
-.back {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-decoration: none;
-    background-color: lightgray;
-    height: 50px;
-    width: 100px;
+.header {
+    margin-top: 100px;
     text-align: center;
-    padding: 20px;
-    font-size: 3em;
-    color: black;
-}
-
-.back:hover {
-    background-color: gray;
+    color: white;
+    font-size: 4em;
 }
 
 .heading {
@@ -33,7 +23,7 @@ body {
 }
 
 #items {
-    margin: 100px 0 100px 10%;
+    margin: 0 0 100px 10%;
     width:80%;
     display: flex;
     flex-wrap: wrap;

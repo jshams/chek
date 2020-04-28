@@ -1,22 +1,35 @@
-html {
-    height: 100%;
-}
-
 body {
+    background: linear-gradient(132deg, rgba(0,105,195,1) 05%,rgba(50,50,50,1) 95% );
+    height: 100%;
     width: 80%;
     margin-left: 10%;
     padding-top: 5%;
     background-color: rgb(224, 224, 224);
     padding-bottom: 100px;
+    color: white;
 }
 
 .company-name {
     margin-top: 80px;
-    font-size: 2.5em;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.home-img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.front-bottom-right {
+    margin-top: 10%;
+    margin-left: 50%;
+    color: white
 }
 
 .products-a {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 10%;
 }
 

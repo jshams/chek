@@ -10,7 +10,7 @@ addNavItem = (itemName, href) => {
 }
 
 const items = ["Home", "Contact", "Shipping info"]
-const hrefs = ["index.html", "contact.html", "index.html#shipping"]
+const hrefs = ["index.html", "contact.html", "shipping.html"]
 
 if (isMobile) {
     items[2] = "Shipping"

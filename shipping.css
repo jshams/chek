@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+    background: linear-gradient(132deg, rgba(0,105,195,1) 05%,rgba(50,50,50,1) 95% );
+    padding-bottom: 200px;
+}
+
+.header {
+    margin-top: 100px;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.shipping-img {
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.shipping {
+    color: white;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+p {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
